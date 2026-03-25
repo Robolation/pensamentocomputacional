@@ -1,0 +1,40 @@
+// C++ code
+//
+#include <Servo.h>
+
+Servo servo_5;
+
+Servo servo_3;
+
+void setup()
+{
+  pinMode(12, OUTPUT);
+  servo_5.attach(5, 500, 2500);
+  pinMode(11, OUTPUT);
+  servo_3.attach(3, 500, 2500);
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(12, LOW);
+  servo_5.write(0);
+  digitalWrite(11, HIGH);
+  servo_3.write(0);
+  delay(1000); // Wait for 1000 millisecond(s)
+  delay(200); // Wait for 200 millisecond(s)
+  digitalWrite(11, LOW);
+  digitalWrite(12, HIGH);
+  servo_3.write(90);
+  servo_5.write(90);
+  delay(200); // Wait for 200 millisecond(s)
+  digitalWrite(12, LOW);
+  digitalWrite(13, HIGH);
+  delay(2000); // Wait for 2000 millisecond(s)
+  servo_3.write(0);
+  servo_5.write(0);
+  delay(200); // Wait for 200 millisecond(s)
+  digitalWrite(12, HIGH);
+  digitalWrite(13, LOW);
+  delay(200); // Wait for 200 millisecond(s)
+}
