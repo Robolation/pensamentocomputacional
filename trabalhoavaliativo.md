@@ -27,7 +27,7 @@ EX-if (botao1 == alto)=executar ações LED 11 if (botao2 == alto)=executar aç�
 
 IMAGEM DO CIRCUITO
 <p allign="center">
-<img src"imagem_2026-05-05_213803332.png" width="50%">
+imagem_2026-05-05_213803332.png
 
 
 CODIGO DO CIRCUITO:
