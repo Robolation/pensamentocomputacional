@@ -88,3 +88,8 @@ void loop()
   }
   delay(10); // Delay a little bit to improve simulation performance
 }
+
+
+IMAGEM DO CIRCUITO EM PESSOA
+
+20260512_221807.jpg
