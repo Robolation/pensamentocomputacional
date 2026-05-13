@@ -91,5 +91,5 @@ void loop()
 
 
 IMAGEM DO CIRCUITO EM PESSOA
-
-20260512_221807.jpg
+<p allign="center">
+<img width="1513" height="679" alt="image" src="20260512_221807.jpg" />
